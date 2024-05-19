@@ -1,0 +1,68 @@
+/* Global Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8f5; /* Very light green background */
+    color: #2e4e32; /* Dark green text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Header Styles */
+h1 {
+    color: #2e7d32; /* Medium green color */
+    margin: 0;
+    padding: 20px;
+    font-size: 3em;
+}
+
+h3 {
+    color: #388e3c; /* Slightly darker green */
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+/* List Styles */
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    background-color: #a5d6a7; /* Light green background */
+    margin: 10px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    width: 250px;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ul li:hover {
+    background-color: #81c784; /* Slightly darker green on hover */
+    transform: translateY(-5px);
+}
+
+ul li a {
+    text-decoration: none;
+    color: #1b5e20; /* Dark green text */
+    display: block;
+    font-size: 1.2em;
+}
+
+ul li a:hover {
+    color: #0d3c15; /* Even darker green on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    ul li {
+        width: 200px;
+    }
+}

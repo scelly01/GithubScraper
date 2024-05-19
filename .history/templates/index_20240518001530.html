@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="termplates/styles.css">
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <h3>Choose a topic</h3>
+    <ul>
+        {% for topic in topiclist %}
+            <a href="{{ topic }}" ><li>{{ topic }}</li></a>
+        {% endfor %}
+    </ul>
+</body>
+</html>

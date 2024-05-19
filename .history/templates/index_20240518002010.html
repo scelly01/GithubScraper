@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>/* Global Styles */
+        
+    </style>
+
+
+<body>
+    <h1>Welcome!</h1>
+    <h3>Choose a topic</h3>
+    <ul>
+        {% for topic in topiclist %}
+            <a href="{{ topic }}" ><li>{{ topic }}</li></a>
+        {% endfor %}
+    </ul>
+</body>
+</html>
